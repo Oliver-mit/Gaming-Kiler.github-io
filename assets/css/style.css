@@ -1,0 +1,166 @@
+.header a, a:hover {
+    color: #8B0000;
+    text-decoration: none;
+}
+
+.header h1 {
+	letter-spacing: 15px;
+	font-size: 300%;
+}
+
+.header p {
+	color: red !important;
+	font-size: 90%;
+	letter-spacing: 4px;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color:#8B0000;
+	background-color:#fff;
+}
+
+.nav-pills>li>a {
+	color:#fff;
+}
+
+.nav-pills>li>a:hover {
+	background-color:#8B0000;
+}
+
+
+.navbar-invres {
+	padding: 1%;
+	border-radius: 0;
+}
+
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float:none;
+	}
+
+	.nav-pills {
+		text-align: center;
+	}
+
+
+	.header h1 {
+		font-size: 350%;
+		letter-spacing: 5px;
+	}
+
+	.header {
+		text-align: center;
+	}
+}
+
+.clear {
+	clear: both;
+	height: 63px;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+.game_block {
+	text-align: center;
+}
+
+.game_block img {
+	margin-bottom: 5%;
+	border-radius: 5px;
+	border: solid 5px #39220e;
+	width: 100%;
+}
+
+ .game_label {
+ 	padding: 2%;
+ 	margin-bottom: 4%;
+ }
+
+ .margin-8 {
+ 	margin-top: 8%;
+ }
+
+
+.panel {
+    border: none;
+}
+
+.panel-body {
+	background-color: #A52A2A;
+}
+
+.panel-info>.panel-heading {
+    background-color: #8B0000;
+    color: white;
+    border-color: transparent;  
+}
+
+.siderbar-header {
+	font-size: 140%;
+	letter-spacing: 3px;
+}
+
+
+.form-control {
+	border-radius: 0px;
+}
+
+.input-lg {
+	font-size: 16px;
+
+}
+
+.list-group-item-danger {
+	color: #000080;
+	background-color: #0000FF;
+}
+
+.badge {
+	background-color: black;
+}
+
+.info-block {
+	font-size: 120%;
+}
+
+.info-block .badge {
+	font-size: 90%;
+}
+
+.info-block span {
+	margin-right: 4%;
+}
+
+textarea.form-control {
+	height: 250px;
+}
+
+
+.table tbody>tr>td.vert-aling {
+	vertical-align: middle;
+}
+
+
+
+footer {
+	color: #222;
+	background: #222;
+	padding: 18px 0 19px 0;
+	bottom-top: 3px solid #4C0500; 
+}
+
+footer a {
+	color: #222;
+}
+
+footer a:hover {
+	color: 	#c999;
+}
